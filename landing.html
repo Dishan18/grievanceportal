@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Grievance Portal 🍰</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <form action="https://api.web3forms.com/submit" method="POST">
+    <h2>Grievance Portal, Cheesecake 🍰</h2>
+    <p>Submit your adorable complaints 💌</p>
+    <p>Your grievance will sent to Dishan 💌</p>
+  <p>He will get back to you very soon! (He will think about it 😌)</p>
+    <input type="hidden" name="access_key" value="#{YOUR_ACCESS_KEY}" />
+    <input name="title" type="text" placeholder="Grievance Title" required />
+    <textarea name="message" placeholder="What's bothering you?" required></textarea>
+
+    <label for="mood">Mood:</label>
+    <select name="mood" id="mood">
+      <option value="😡">😡 Angry</option>
+      <option value="😢">😢 Sad</option>
+      <option value="😐">😐 Meh</option>
+      <option value="🥺">🥺 Hurt</option>
+    </select>
+
+    <button type="submit" href="#">Submit</button>
+  </form>
+  
+</body>
+</html>
